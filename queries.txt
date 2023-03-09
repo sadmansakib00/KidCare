@@ -1,0 +1,13 @@
+CREATE DATABASE KidCareContactForm;
+
+CREATE TABLE QueryFromPeople (
+    PersonID int NOT NULL AUTO_INCREMENT,
+    FirstName varchar(255),
+    LastName varchar(255),
+    Email varchar(255),
+    Message TEXT,
+    PRIMARY KEY (PersonID)
+);
+
+INSERT INTO queryfrompeople(FirstName, LastName, Email, Message)
+                    VALUES ('$first_name','$last_name','$from','$temp_message');

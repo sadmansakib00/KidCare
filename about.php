@@ -12,7 +12,7 @@
         <?php include "headernav.html"; ?>
     </section>
 
-    <section class="welcome_info">
+    <section class="about_welcome_info">
         <div class="container welcome-container">
             <h1 class="display-2 fw-bold text-center">About</h1>
             <p>

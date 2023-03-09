@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    
+
     <section class="header_info">
         <?php include "headernav.html" ?>
     </section>
@@ -21,22 +21,22 @@
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
-            <div class="carousel-inner" data-bs-interval="2000">
-                <div class="carousel-item active">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="3000">
                     <img src="resources/Carousel 1.jpg" class="d-block w-100" alt="Kids doing fun activity at KidCare">
                     <div class="carousel-caption d-none d-md-block">
                         <h3 class="carousel-text">Enjoy</h3>
                         <p class="carousel-text text-center">At KidCare, your child won't have any shortages of fun activites.</p>
                     </div>
                 </div>
-                <div class="carousel-item" data-bs-interval="2000">
+                <div class="carousel-item" data-bs-interval="3000">
                     <img src="resources/Carousel 2.jpg" class="d-block w-100" alt="Kids brainstorming with legos at KidCare">
                     <div class="carousel-caption d-none d-md-block">
                         <h3 class="carousel-text">Think</h3>
                         <p class="carousel-text text-center">At KidCare, our curriculum is designed to make your child think.</p>
                     </div>
                 </div>
-                <div class="carousel-item" data-bs-interval="2000">
+                <div class="carousel-item" data-bs-interval="3000">
                     <img src="resources/Carousel 3.jpg" class="d-block w-100" alt="Kids asking questions at KidaCare">
                     <div class="carousel-caption d-none d-md-block">
                         <h3 class="carousel-text">Question</h3>
