@@ -74,3 +74,15 @@ p {
 .footer-last-part-styles {
     background-color: #674188;
 }
+
+.form-table {
+    background-color: #FFF2F2;
+}
+
+.form-table-head {
+    background-color: #E5E0FF;
+}
+
+.form-check-input {
+    margin-right: 15px;
+}

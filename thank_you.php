@@ -9,7 +9,7 @@
 
 <body>
     <section class="header_info">
-        <?php include "headernav.html"; ?>
+        <?php include "headernav.php"; ?>
     </section>
 
     <section class="thank_you_info">

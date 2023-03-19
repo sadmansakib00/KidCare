@@ -11,3 +11,22 @@ CREATE TABLE QueryFromPeople (
 
 INSERT INTO queryfrompeople(FirstName, LastName, Email, Message)
                     VALUES ('$first_name','$last_name','$from','$temp_message');
+
+ALTER TABLE QueryFromPeople
+ADD AdminMessage varchar(255);
+
+UPDATE queryfrompeople SET AdminMessage='$admin_message' WHERE PersonID=$person_id;
+
+
+
+CREATE DATABASE kidcareadmin;
+
+CREATE TABLE AdminCreds (
+    id int NOT NULL AUTO_INCREMENT,
+    Email varchar(255),
+    Password varchar(255),
+    PRIMARY KEY (id)
+);
+
+INSERT INTO admincreds(Email, Password)
+                    VALUES ('email@gmail.com','emailpassword');

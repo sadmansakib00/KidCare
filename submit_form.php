@@ -18,7 +18,7 @@
         $headers2 = "From:" . $to;
 
         //mail($to, $subject, $message, $headers);
-        mail($to, $subject, $message, "From:". "admin01@kidcare.com"); //Only works when I keep header to local server admin account. I gotta check why this happens
+        //mail($to, $subject, $message, "From:". "admin01@kidcare.com"); //Only works when I keep header to local server admin account. I gotta check why this happens
         //mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
         mail("admin01@kidcare.com", $subject, $message, $headers); //sends the admin a copy of the message
 

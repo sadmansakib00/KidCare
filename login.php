@@ -11,7 +11,7 @@
 <body>
 
     <section class="header_info">
-        <?php include "headernav.html" ?>
+        <?php include "headernav.php" ?>
     </section>
 
     <section class="login_info">
@@ -19,7 +19,7 @@
             <div class="row justify-content-center mt-5">
                 <div class="col-md-6">
                     <h2 class="text-center mb-4">Log In</h2>
-                    <form action="login.php" method="post">
+                    <form action="login_control.php" method="post">
                         <div class="mb-3">
                             <label for="email" class="form-label">Email address</label>
                             <input type="email" class="form-control" id="email" name="email" required>
