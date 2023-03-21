@@ -17,6 +17,7 @@ if($con) {
     if($result->num_rows == 1) {
     	session_start();
     	$_SESSION['email'] = $email;
+        $_SESSION['loginFlag'] = 1;
     	header("Location: form_data.php");
     	exit();
     } else {

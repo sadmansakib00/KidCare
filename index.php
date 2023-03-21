@@ -1,3 +1,15 @@
+<?php
+session_start();
+
+// Checking if an admin is logged in
+if(!isset($_SESSION['email']) && isset($_SESSION['loginFlag'])) {
+    $_SESSION['loginFlag'] = 0;
+    header("Location: index.php");
+    exit();
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
